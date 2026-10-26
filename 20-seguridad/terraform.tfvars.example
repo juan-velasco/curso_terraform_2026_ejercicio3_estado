@@ -1,0 +1,4 @@
+# Copia este fichero como terraform.tfvars y rellénalo
+prefijo       = "nombre-apellido"
+usar_floci    = false
+bucket_estado = "nombre-apellido-tfstate-curso" # output de 00-bootstrap

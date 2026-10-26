@@ -1,0 +1,3 @@
+# Copia este fichero como terraform.tfvars y rellénalo
+prefijo    = "nombre-apellido"
+usar_floci = false

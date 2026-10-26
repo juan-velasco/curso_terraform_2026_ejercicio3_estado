@@ -6,7 +6,7 @@ data "terraform_remote_state" "red" {
 
   config = {
     bucket = var.bucket_estado
-    key    = ___
+    key    = "10-red/terraform.tfstate"
     region = var.region
 
     # Solo con Floci (con AWS valen null o false y no se usan)

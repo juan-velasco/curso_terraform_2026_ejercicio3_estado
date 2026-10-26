@@ -5,6 +5,6 @@
 # porque el bloque backend no admite variables.
 terraform {
   backend "s3" {
-    key = "seguridad/terraform.tfstate"
+    key = "20-seguridad/terraform.tfstate"
   }
 }
